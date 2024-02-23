@@ -768,6 +768,10 @@ app-status-bar{
     }
 
 }
+
+.all_post{
+    margin-top: 50px;
+}
 /*----------------------- Media Query For Profile Page------------------------*/
 @media (max-width: 900px){
     .pofile-container{

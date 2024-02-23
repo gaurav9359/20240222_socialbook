@@ -19,10 +19,12 @@
         <div class="main-content">
           <app-status-bar></app-status-bar>
           <app-new-post></app-new-post>
-        <app-post ></app-post>
-        <app-post ></app-post>
-        <app-post ></app-post>
-        <app-post ></app-post>
+            <div class="all_post">
+                <app-post class="all-post" [post]="posts[0]"></app-post>
+        <app-post class="all-post" [post]="posts[1]"></app-post>
+        <app-post class="all-post" [post]="posts[2]"></app-post>
+        <app-post class="all-post" [post]="posts[3]"></app-post>
+            </div>
         </div>
 
         <!-- right-part -->
