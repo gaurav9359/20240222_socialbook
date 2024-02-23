@@ -223,7 +223,7 @@ nav{
     bottom: 5px;
 
 }
-app-status-bar{
+.story-gallery{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
