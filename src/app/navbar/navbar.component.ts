@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-    fname="Gaurav"
-    lname= "Pathak"
-    Url="https://i.postimg.cc/cHg22LhR/profile-pic.png"
+    fname="Sumitv"
+    lname= "Banwakade"
+    Url="https://i.postimg.cc/Wbh4fp05/download-3.jpg"
 
     toggles= false
     settingsMenuToggle(){
